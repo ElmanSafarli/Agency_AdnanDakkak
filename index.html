@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <!-- Cursor animation -->
@@ -175,6 +181,135 @@
               </p>
             </div>
             <div class="about-img"><img src="" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="contact-us">
+        <div class="contact-form">
+          <div class="contact-l">
+            <h1>Let’s discuss on something <span>cool</span> together</h1>
+            <div class="info">
+              <a href="mailto:example@domain.com">
+                <i class="fa-solid fa-envelope"></i>
+                example@domain.com
+              </a>
+              <a href="tel:+995534423949">
+                <i class="fa-solid fa-phone"></i>
+                +995593443949
+              </a>
+              <a role="link" aria-disabled="true">
+                <i class="fa-solid fa-location-dot"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </a>
+            </div>
+          </div>
+          <div class="contact-r">
+            <div class="content">
+              <form id="contact-form">
+                <div class="top">
+                  <p>I’m interested in...</p>
+                  <div id="product-choices" class="box-group">
+                    <div class="product-choose" data-product="Product Item-1">
+                      Product Item-1
+                    </div>
+                    <div class="product-choose" data-product="Product Item-2">
+                      Product Item-2
+                    </div>
+                    <div class="product-choose" data-product="Product Item-3">
+                      Product Item-3
+                    </div>
+                    <div class="product-choose" data-product="Product Item-4">
+                      Product Item-4
+                    </div>
+                    <div class="product-choose" data-product="Product Item-5">
+                      Product Item-5
+                    </div>
+                    <div class="product-choose" data-product="Other">Other</div>
+                  </div>
+                </div>
+                <input
+                  type="hidden"
+                  id="selectedInterestItem"
+                  name="selected_item"
+                />
+                <div class="middle">
+                  <div class="input-container">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="input"
+                      name="user_name"
+                      required
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label for="surname">Surname</label>
+                    <input
+                      type="text"
+                      class="input"
+                      id="surname"
+                      name="user_surname"
+                      required
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="input"
+                      name="user_email"
+                      required
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label for="phone">Phone</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      class="input"
+                      name="user_phone"
+                      required
+                    />
+                  </div>
+                  <div class="input-container">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="user_message"
+                      class="input"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <button type="submit">
+                    <div className="svg-wrapper-1">
+                      <div className="svg-wrapper">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                        >
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path
+                            fill="currentColor"
+                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Send</span>
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -526,7 +661,11 @@
         </div>
       </div>
     </footer>
-
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d17c83b3d5.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./app/app.js"></script>
   </body>
 </html>
