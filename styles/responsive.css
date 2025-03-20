@@ -1,0 +1,172 @@
+@media (max-width: 1300px) {
+    .header_content img {
+        width: 420px;
+    }
+
+    /* Why us */
+    .whyus_content .left .whyus_img {
+        width: 414px;
+    }
+
+    .whyus_content .left .whyus_img1 {
+        height: 640px;
+    }
+}
+
+@media (max-width: 1028px) {
+
+    /* Header */
+    .header_content {
+        padding: 40px 2% 80px;
+    }
+
+    .header_text h1 {
+        font-size: 40px;
+    }
+
+    .span_animated {
+        width: 290px;
+        height: 110px;
+        left: 150px;
+    }
+
+    .span_animated span {
+        font-size: 38px;
+    }
+
+    /* Whyus */
+    .whyus_content {
+        padding: 160px 2%;
+    }
+
+    /* About */
+    .about_content {
+        padding: 118px 2%;
+    }
+
+    .about_info h2 {
+        font-size: 50px;
+    }
+
+    .about-img {
+        width: 430px;
+        height: 380px;
+    }
+
+    /* Faq container */
+    .faq-container {
+        padding: 160px 2%;
+    }
+}
+
+@media (max-width: 868px) {
+
+    /* Header */
+    .header_content {
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header_content img {
+        width: 100%;
+    }
+
+    /* Faq */
+    .faq-container h2 {
+        font-size: 38px;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    /* Header */
+    .header_text h1 {
+        font-size: 30px;
+    }
+
+    .span_animated span {
+        font-size: 28px;
+    }
+
+    .span_animated {
+        width: 200px;
+        height: 80px;
+        left: 100px;
+    }
+
+    .span_animated .circle,
+    .span_animated .rentangle {
+        border: 6px solid var(--accent);
+    }
+
+    .span_animated .rentangle {
+        width: 90%;
+        height: 76%;
+    }
+
+    .header_content p {
+        font-size: 16px;
+    }
+
+    .header_content .left {
+        width: 100%;
+    }
+
+    .header_btns a:first-child {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .whatch_video span {
+        display: none;
+    }
+
+    .header_btns {
+        gap: 12px;
+    }
+
+    /* About us */
+    .about_info_content {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 320px;
+    }
+
+    .about_info p {
+        font-weight: 500;
+    }
+
+    .about_info h2 {
+        font-size: 38px;
+    }
+
+    /* Faq */
+    .faq-container h2 {
+        font-size: 22px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    .faq-question .arrow svg {
+        width: 14px;
+    }
+
+    .faq-answer p {
+        font-size: 14px;
+    }
+
+    .faq-container h2 {
+        margin: 0 auto 50px;
+    }
+}
