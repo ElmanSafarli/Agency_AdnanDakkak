@@ -1,3 +1,9 @@
+$(window).on("load", function () {
+  setTimeout(function () {
+    $("#loader").fadeOut();
+  }, 100);
+});
+
 $(document).ready(function () {
   // Hide all answers except the first one
   $(".faq-answer").hide().first().show();

@@ -1,3 +1,9 @@
+$(window).on("load", function () {
+  setTimeout(function () {
+    $("#loader").fadeOut();
+  }, 100);
+});
+
 const swiper = new Swiper(".portfolio_slider", {
   // Optional parameters
   loop: true,
