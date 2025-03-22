@@ -4,6 +4,22 @@ $(window).on("load", function () {
   }, 100);
 });
 
+$(document).mousemove(function (e) {
+  let x = e.pageX;
+  let y = e.pageY;
+  $(".cursor_animation").css({
+    left: x + "px",
+    top: y + "px",
+    display: "block",
+  });
+});
+
+$(document).mouseout(function () {
+  $(".cursor_animation").css({
+    display: "none",
+  });
+});
+
 $(document).ready(function () {
   // Hide all answers except the first one
   $(".faq-answer").hide().first().show();
