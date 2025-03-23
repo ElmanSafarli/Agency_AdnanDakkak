@@ -56,6 +56,7 @@ ul {
   animation: colors 5s infinite;
   transform: translate(-50%, -50%);
   display: none;
+  transition: 0.1s all;
 }
 
 @keyframes colors {
