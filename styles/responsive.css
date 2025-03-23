@@ -39,6 +39,11 @@
 
 @media (max-width: 1028px) {
 
+    /* Navbar */
+    .navbar_content {
+        padding: 18px 2%;
+    }
+
     /* Header */
     .header_content {
         padding: 40px 2% 80px;
@@ -136,6 +141,16 @@
 
 @media (max-width: 768px) {
 
+    /* Navbar */
+    .nav_items,
+    .nav_contact {
+        display: none;
+    }
+
+    .sidebar_mobile {
+        display: block;
+    }
+
     /* Header */
     .header_content img {
         width: 100%;
@@ -150,6 +165,7 @@
     .section_info {
         flex-direction: column;
     }
+
 }
 
 

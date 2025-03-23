@@ -30,6 +30,16 @@ $(document).mouseout(function () {
   });
 });
 
+$(document).ready(function () {
+  $("#checkbox2").change(function () {
+    if ($(this).is(":checked")) {
+      $(".sidebar_content").addClass("active");
+    } else {
+      $(".sidebar_content").removeClass("active");
+    }
+  });
+});
+
 const swiper = new Swiper(".portfolio_slider", {
   // Optional parameters
   loop: true,

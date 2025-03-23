@@ -32,6 +32,16 @@ $(document).mouseout(function () {
 });
 
 $(document).ready(function () {
+  $("#checkbox2").change(function () {
+    if ($(this).is(":checked")) {
+      $(".sidebar_content").addClass("active");
+    } else {
+      $(".sidebar_content").removeClass("active");
+    }
+  });
+});
+
+$(document).ready(function () {
   // Hide all answers except the first one
   $(".faq-answer").hide().first().show();
   $(".faq-question svg").first().addClass("rotate");
