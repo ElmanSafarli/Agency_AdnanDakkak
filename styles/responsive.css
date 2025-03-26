@@ -35,6 +35,11 @@
         font-size: 52px;
         margin-bottom: 60px;
     }
+
+    /* Offer */
+    .offer_svg {
+        height: 860px;
+    }
 }
 
 @media (max-width: 1028px) {
@@ -70,6 +75,7 @@
 
     .offer_info h3 {
         font-size: 50px;
+        width: 74%;
     }
 
     /* Whyus */
@@ -145,6 +151,34 @@
     /* Detail Featured */
     .features_items {
         flex-direction: column;
+    }
+
+    /* Offer */
+    .offer_svg {
+        display: none;
+    }
+
+    .offer_info .top,
+    .offer_info .bottom {
+        padding-left: 0;
+    }
+
+    .offer_info .top a {
+        right: 0;
+        top: 14px;
+    }
+
+    .offer_info a {
+        margin-top: 28px;
+    }
+
+    .offer_info .top {
+        margin-bottom: 140px;
+    }
+
+    /* Why us */
+    .whyus_content {
+        padding: 100px 2%;
     }
 }
 

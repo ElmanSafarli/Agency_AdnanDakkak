@@ -550,11 +550,11 @@ nav {
 }
 
 .offer_info .top {
-  margin-bottom: 140px;
+  margin-bottom: 200px;
+  padding-left: 40px;
 }
 
-.offer_line {
-  width: 100%;
+.offer_svg {
   position: absolute;
   top: 0;
   right: 0;
@@ -562,8 +562,8 @@ nav {
 
 .offer_info h3 {
   font-weight: 400;
-  width: 80%;
-  font-size: 68px;
+  width: 82%;
+  font-size: 56px;
   line-height: 110%;
   background: linear-gradient(121deg, #9795ff 0%, #fff 41.67%, #fff 59.45%, #be9fff 100%);
   background-clip: text;
@@ -597,8 +597,13 @@ nav {
 }
 
 .offer_info .top a {
-  right: 0;
-  top: 0;
+  right: 42px;
+  top: -18px;
+  z-index: 4;
+}
+
+.offer_info .bottom {
+  padding-left: 40px;
 }
 
 .offer_info .bottom a {
